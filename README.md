@@ -2,7 +2,9 @@
 
 This repo contains the code base we have used for the "Introduction to Mocha - A JavaScript Test Framework" course from Test Automation University.
 
-Connect me via -
+## License
 
-LinkedIn - Giridhar Rajkumar
-Twitter - @vgrk2017
+This project is licensed under the MIT License - see [here](https://mit-license.org/) for details
+
+## Author
+Giridhar Rajkumar
