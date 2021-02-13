@@ -14,7 +14,7 @@ describe('Mathematical Operations - Test Suite', function(){
 
     var c = a+b;
 
-    assert.equal(c,20);
+    assert.strictEqual(c,20);
 
     setTimeout(done,1000);
 
@@ -25,7 +25,7 @@ describe('Mathematical Operations - Test Suite', function(){
 
     var c = a-b;
 
-    assert.equal(c,0);
+    assert.strictEqual(c,0);
 
     setTimeout(done,2000);
 
@@ -36,7 +36,7 @@ describe('Mathematical Operations - Test Suite', function(){
 
     var c = a*b;
 
-    assert.equal(c,100);
+    assert.strictEqual(c,100);
 
     setTimeout(done,1000);
 
@@ -47,7 +47,7 @@ describe('Mathematical Operations - Test Suite', function(){
       
     var c = a/b;
 
-    assert.equal(c,1);
+    assert.strictEqual(c,1);
 
     setTimeout(done,2000);
 
@@ -60,7 +60,7 @@ describe('Mathematical Operations - Test Suite', function(){
 
     var c = a+b;
 
-    assert.equal(c,20);
+    assert.strictEqual(c,20);
 
     setTimeout(done,1000);
 
@@ -71,7 +71,7 @@ describe('Mathematical Operations - Test Suite', function(){
 
     var c = a-b;
 
-    assert.equal(c,10);
+    assert.strictEqual(c,10);
 
     setTimeout(done,3000);
 
@@ -82,7 +82,7 @@ describe('Mathematical Operations - Test Suite', function(){
 
     var c = a*b;
 
-    assert.equal(c,100);
+    assert.strictEqual(c,100);
 
     setTimeout(done,2000);
 
@@ -93,7 +93,7 @@ describe('Mathematical Operations - Test Suite', function(){
       
     var c = a/b;
 
-    assert.equal(c,1);
+    assert.strictEqual(c,1);
 
     setTimeout(done,1000);
 

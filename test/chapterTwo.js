@@ -18,7 +18,7 @@ describe('Mathematical Operations - Test Suite', function(){
 
     var c = a+b;
 
-    assert.equal(c,20);
+    assert.strictEqual(c,20);
 
   });
 
@@ -29,7 +29,7 @@ describe('Mathematical Operations - Test Suite', function(){
 
     var c = a-b;
 
-    assert.equal(c,0);
+    assert.strictEqual(c,0);
 
 
   });
@@ -41,7 +41,7 @@ describe('Mathematical Operations - Test Suite', function(){
 
     var c = a*b;
 
-    assert.equal(c,100);
+    assert.strictEqual(c,100);
 
 
   });
@@ -53,7 +53,7 @@ describe('Mathematical Operations - Test Suite', function(){
 
     var c = a/b;
 
-    assert.equal(c,0);
+    assert.strictEqual(c,0);
 
 
   });
